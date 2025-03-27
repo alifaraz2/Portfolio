@@ -1,5 +1,9 @@
 {
     "routes": [
+      { "src": "/portfolio", "dest": "/portfolio.html" },
+      { "src": "/portfolio.css", "dest": "/portfolio.css" },
+      { "src": "/js.js", "dest": "/js.js" },
+      { "src": "/media/(.*)", "dest": "/media/$1" },
       { "src": "/(.*)", "dest": "/portfolio.html" }
     ]
   }
